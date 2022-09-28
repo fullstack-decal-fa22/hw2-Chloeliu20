@@ -15,6 +15,16 @@ h2 {
   font-size: medium;
   font-weight: 200;
 }
+
+.label{
+  color: gray;
+}
+
+.label:hover{
+  color: pink;
+  transform: scale(1.5);
+
+}
 /* END SETUP */
 
 /* Classes that you might find useful */
@@ -27,11 +37,20 @@ h2 {
   margin-bottom: 5rem;
 }
 
+.left {
+  margin-right: 10px;
+}
+
+.right {
+  margin-left: 10px;
+}
+
 .twovert {
   height: 50%;
 }
 
 .threevert {
+  height: 33.3%
 }
 
 .threehoriz {
@@ -63,6 +82,10 @@ h2 {
   background-color: orange;
 }
 
+.red {
+  background-color: red;
+}
+
 .yellow {
   background-color: yellow;
 }
@@ -91,18 +114,24 @@ h2 {
   background-color: #000;
 }
 
+#white{
+  background-color: #fff;
+}
+
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color:#B5002D;
+  height: 16.7%;
 }
-
 .thailand-white {
-  /* TODO */
+  background-color:whitesmoke;
+  height: 16.7%;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2e2a4c;
+  height: 16.7%;
 }
 
 /* END QUESTION 2 */
@@ -129,7 +158,10 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  background-color: #fff;
+  object-fit: contain;
+  place-items: center;
+  display: grid;
 }
 
 .mexico-red {
@@ -139,7 +171,7 @@ h2 {
 /* QUESTION 6 */
 .margin-container {
   height: 300px;
-  width: 1030px;
+  width: 1000px;
   border-style: solid;
   margin-bottom: 5rem;
   display: flex;
@@ -161,5 +193,10 @@ h2 {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
 }
